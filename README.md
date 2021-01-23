@@ -5,9 +5,9 @@
 
 ## 选股小程序  使用指南    
 
-* 环境： Windows10 
+* 环境： Windows10, this tool is built by VS 2019
 
-* 按照Stock.txt中的格式，存储你想要的筛选的基金和对应的十大持仓 
+* 按照Stock.txt中的格式，存储你想要筛选的基金和对应的十大持仓 
 * 程序会根据指定的最大权重（maxValue，即第一位持仓股票的权重）和最小权重（minValue，即第十位持仓股票的权重），
    为每个持仓中的股票计算该股票权重。最终，统计所有持仓中的某只股票得分
 * 注意将Stock.txt文件放在与 SelectStock.exe 同目录下 
